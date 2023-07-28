@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: solid 3px;
+  }
+  
+  #container {
+
+    /* Utilisez le modèle de disposition "grid" pour organiser les éléments à l'intérieur du conteneur */
+    display: grid;
+    /* Définis la taille des colonnes de la grille en utilisant la fonction "repeat" pour répéter 15 fois une largeur de 60 pixels */
+    grid-template-columns: repeat(15, 60px);
+    /* Définis la taille des lignes de la grille en utilisant la fonction "repeat" pour répéter 15 fois une hauteur de 60 pixels */
+    grid-template-rows: repeat(15, 60px);
+    margin-left: 10px;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    
+    border: 1px solid black;
+  }
+
+  .rules{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .rules_text{
+    background-color: black;
+    color: white;
+  }
+
+  .rules p {
+    margin-left: 23px;
+
+  }
+
+  .rules h2 {
+    margin-left: 23px;
+  }
+
+  .rules_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-top: solid 3px;
+
+  }
+
+  .rules img{
+    margin-top: 10px;
+  }
